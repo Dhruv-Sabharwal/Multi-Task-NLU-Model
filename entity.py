@@ -16,7 +16,7 @@ def log_sum_exp(vec):
         torch.log(torch.sum(torch.exp(vec - max_score_broadcast)))
 
 
-
+# Some parts of this code are adapted from https://pytorch.org/tutorials/beginner/nlp/advanced_tutorial.html
 class BiLSTM_CRF(nn.Module):
 
     def __init__(self, tag_to_ix, embedding_dim=256, hidden_dim=256):
