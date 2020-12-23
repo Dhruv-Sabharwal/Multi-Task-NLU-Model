@@ -47,6 +47,8 @@ We look at two crucial modules of conversational systems - the Natural Language 
     </li>
 </ul>
 
+<b>Note - </b> For access to all the code files please drop me an email at <b>dhruv.sabharwal_asp21@ashoka.edu.in</b>
+
 <h2>Multi-Task Natural Language Understanding Model</h2>
 We create a multi-task NLU model to extract the entities and intents from the user utterances. The model is adapted from <a href="https://arxiv.org/pdf/1811.05370.pdf">this</a> paper, with some changes. Our multi-task model has three components:
 <ul>
